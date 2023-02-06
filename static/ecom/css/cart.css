@@ -1,0 +1,110 @@
+
+
+@import url(http://fonts.googleapis.com/css?family=Calibri:400,300,700);
+.box-emty{
+width: 700px;
+text-align: center;
+}
+.containerr {
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+.text-red{
+color: red;
+}
+.size span {
+font-size: 11px;
+}
+.font-weight-bold{
+  color: #000000;
+}
+.color span {
+font-size: 11px;
+}
+
+.product-deta {
+margin-right: 70px;
+}
+
+.gift-card:focus {
+box-shadow: none;
+}
+
+.pay-button {
+color: #050101;
+}
+
+.pay-button:hover {
+color: #000000;
+}
+
+.pay-button:focus {
+color: #fff;
+box-shadow: none;
+}
+
+.text-grey {
+color: #000000;
+}
+
+.qty i {
+font-size: 11px;
+}
+
+/* -- quantity box -- */
+
+.quantity {
+display: inline-block; }
+
+.quantity .input-text.qty {
+width: 35px;
+height: 39px;
+padding: 0 5px;
+text-align: center;
+background-color: transparent;
+border: 1px solid #efefef;
+}
+
+.quantity.buttons_added {
+text-align: left;
+position: relative;
+white-space: nowrap;
+vertical-align: top; }
+
+.quantity.buttons_added input {
+display: inline-block;
+margin: 0;
+vertical-align: top;
+box-shadow: none;
+}
+
+.quantity.buttons_added .minus,
+.quantity.buttons_added .plus {
+padding: 7px 10px 8px;
+height: 41px;
+background-color: #ffffff;
+border: 1px solid #efefef;
+cursor:pointer;}
+
+.quantity.buttons_added .minus {
+border-right: 0; }
+
+.quantity.buttons_added .plus {
+border-left: 0; }
+
+.quantity.buttons_added .minus:hover,
+.quantity.buttons_added .plus:hover {
+background: #eeeeee; }
+
+.quantity input::-webkit-outer-spin-button,
+.quantity input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+-moz-appearance: none;
+margin: 0; }
+
+.quantity.buttons_added .minus:focus,
+.quantity.buttons_added .plus:focus {
+outline: none; }
